@@ -5,7 +5,6 @@
 
 return {
   'tpope/vim-fugitive',
-  'github/copilot.vim',
 
   organize_imports = function()
     vim.api.nvim_create_autocmd('BufWritePre', {
